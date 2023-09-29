@@ -1,0 +1,98 @@
+/* Reset básico e estilização global */
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* Define a fonte padrão para todo o corpo do documento */
+  text-align: center;
+  /* Centraliza o texto */
+  margin: 0;
+  /* Remove a margem padrão ao redor do corpo */
+}
+
+/* Estilização da seção hero */
+#hero {
+  width: 592px;
+  /* Define a largura da seção hero */
+  margin: 0 auto 72px;
+  /* Centraliza a seção hero e adiciona margem abaixo */
+}
+
+#hero img {
+  margin-bottom: 72px;
+  /* Adiciona margem abaixo da imagem na seção hero */
+}
+
+/* Estilização do título principal (h1) */
+h1 {
+  font-family: 'Inter', sans-serif;
+  /* Define a fonte para o título principal */
+  font-size: 49px;
+  /* Define o tamanho da fonte */
+  line-height: 56px;
+  /* Define a altura da linha */
+  font-weight: normal;
+  /* Define a espessura da fonte */
+  margin: 32px;
+  /* Adiciona margem ao redor do título */
+  width: 562px;
+  /* Define a largura do título */
+}
+
+h1 span {
+  font-weight: bold;
+  /* Define a espessura da fonte para bold dentro do título principal */
+}
+
+/* Estilização para elementos span e links (a) */
+span,
+a {
+  color: #FF9900;
+  /* Define a cor para elementos span e links */
+}
+
+/* Estilização do parágrafo (p) */
+p {
+  color: #7D7987;
+  /* Define a cor do texto */
+  font-size: 14px;
+  /* Define o tamanho da fonte */
+  line-height: 28px;
+  /* Define a altura da linha */
+  width: 592px;
+  /* Define a largura do parágrafo */
+}
+
+/* Estilização específica para o segundo link no rodapé */
+#footer a+a {
+  margin-left: 30px;
+  /* Adiciona margem à esquerda do segundo link no rodapé */
+}
+
+/* Estilização da linha divisória no rodapé */
+#line {
+  width: 568px;
+  /* Define a largura da linha */
+  height: 0px;
+  /* Define a altura da linha */
+  border: 1px solid #eceff2;
+  /* Define a borda da linha */
+  margin: 0 auto 8px;
+  /* Centraliza a linha e adiciona margem abaixo */
+}
+
+/* Estilização do rodapé */
+#footer {
+  font-size: 14px;
+  /* Define o tamanho da fonte */
+  line-height: 28px;
+  /* Define a altura da linha */
+}
+
+/* Estilização da imagem decorativa no canto inferior direito */
+#balls {
+  position: fixed;
+  /* Fixa a posição da imagem */
+  bottom: 0px;
+  /* Alinha a imagem com a parte inferior da tela */
+  right: 0px;
+  /* Alinha a imagem com a parte direita da tela */
+}
